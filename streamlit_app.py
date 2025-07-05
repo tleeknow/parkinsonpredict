@@ -4,7 +4,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
 # 데이터 URL (raw 형태로 반드시 수정)
-DATA_URL = "https://raw.githubusercontent.com/yeyjin123/bio-ai/main/parkinson_cleaned.csv"
+DATA_URL = "https://raw.githubusercontent.com/tleeknow/parkinsonpredict/main/parkinson_cleaned.csv"
 
 @st.cache_data
 def load_data():
